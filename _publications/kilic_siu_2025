@@ -3,7 +3,8 @@ title: "Learning Action Primitives in Manipulation Robots"
 collection: publications
 category: manuscripts
 paperurl: '/files/kilic_siu_2025.pdf'
+date: 2025-03-06
 citation: 'Kılıç B., Ahmetoğlu A. & Uğur E. (2025). Learning Action Primitives in Manipulation Robots [Work in progress]'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Intelligent agents sense and act in a continuous space at the sensorimotor level. However, most of our daily tasks require manipulating a finite number of objects using a fixed set of skills, suggesting the use of perceptual and action primitives. Previous studies either learn perceptual primitives from a set of high-level actions or learn these actions from hand-coded states. In this study, we propose a neural architecture that allows simultaneous learning of action primitives together with object-level perceptual primitives from interaction data. The interaction process is guided by an active learning module that enables the search for effect-focused action parameters. The experiment results show that our model can find meaningful action primitives.
