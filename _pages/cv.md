@@ -12,7 +12,9 @@ redirect_from:
 Education
 ======
 * Computer Engineering, Bogazici University, Istanbul, Turkey (2021 - Present) (Bachelor's)
+  * Intro to Artificial Intelligence, Neuro-Symbolic AI, Artificial Intelligence in Healthcare
 * Computer Science and Engineering, KTH Royal Institute of Technology, Stockholm, Sweden (Jan 2024 - June 2024) (Exchange Student)
+  * Deep Learning in Data Science, Formal Languages and Automata Theory, Machine Learning
 
 Work experience
 ======
@@ -20,7 +22,7 @@ Work experience
   * CoLoRs (Cognitive Learning and Robotics), Boğaziçi University (Istanbul, Turkey)
   * Supervisor: Prof. Emre Uğur
     * Had research experience in robotics, neuro-symbolic AI, and deep learning.
-    * Worked on two papers on the discovery of robotic symbolic skills.
+    * Authored two papers on the discovery of robotic symbolic skills.
     * Attended weekly seminars on neuro-symbolic AI.
   
 
