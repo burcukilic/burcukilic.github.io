@@ -24,7 +24,13 @@ Work experience
     * Had research experience in robotics, neuro-symbolic AI, and deep learning.
     * Authored two papers on the discovery of robotic symbolic skills.
     * Attended weekly seminars on neuro-symbolic AI.
-  
+
+
+* Visiting Research Assistant, June 2025 - August 2025
+  * University Innsbruck (Innsbruck, Austria)
+  * Supervisor: Prof. Justus Piater
+    * Gained experience in AI research and neuro-symbolic robotics.
+    * Learned deeply about transformer architectures and implemented it.
 
 * AI Intern, Jun 2024 – Sep 2024
   * MTU Aero Engines (Munich, Germany)
@@ -58,7 +64,7 @@ Skills
 * Technical Proficiencies
   * Pytorch, PyBullet, Langchain, Diffusers
 * Languages
-  * Turkish (Native), English (Professional), German (Limited Proficiency
+  * Turkish (Native), English (Professional), German (Limited Proficiency)
 
 Publications
 ======
