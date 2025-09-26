@@ -33,12 +33,12 @@ author:
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=xfKs7d4AAAAJ"
   impactstory      : # URL
   orcid            : "https://orcid.org/my-orcid?orcid=0009-0001-3156-105X"
   semantic         : # URL
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Burcu-Kilic-3"
   scopus           : # URL
 
   # Repositories and software development
