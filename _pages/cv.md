@@ -23,14 +23,20 @@ Work experience
   * Supervisor: Prof. Emre Uğur
     * Had research experience in robotics, neuro-symbolic AI, and deep learning.
     * Authored two papers on the discovery of robotic symbolic skills.
-    * Attended weekly seminars on neuro-symbolic AI.
+    * Worked with PyBullet and Mujoco, also in real world robotic arms such as xArm.
 
+* Computer Vision Intern, Aug 2025 - Sep 2025
+  * Myth AI (Istanbul, Turkey)
+    * Used depth (MiDaS) and segmentation (SAM) models to build garment compositing pipelines
+    * Generated shading and normal maps to improve 3D realism and garment fit
+    * Used OpenCV for image warping, alignment, and multi-layer compositing
 
-* Visiting Research Assistant, June 2025 - August 2025
+* Visiting Researcher, June 2025 - August 2025
   * University Innsbruck (Innsbruck, Austria)
   * Supervisor: Prof. Justus Piater
     * Gained experience in AI research and neuro-symbolic robotics.
-    * Learned deeply about transformer architectures and implemented it.
+    * Implemented the decision transformer architecture from scratch with PyTorch
+    * Explored transformer-based policy learning methods for robotic control
 
 * AI Intern, Jun 2024 – Sep 2024
   * MTU Aero Engines (Munich, Germany)
@@ -41,9 +47,9 @@ Work experience
 
 * AI Developer, July 2023 – Jan 2024
   * IDA AI (Istanbul, Turkey)
-    * Trained AI models and creating pipelines with LoRA and Diffusers
-    * Finetuned Stable Diffusion and Huggingface models
-    * Worked on a virtual photoshooting/fashion design AI: https://modamind.ai/
+    * Trained generative models ( Stable Diffusion) using LoRA for virtual fashion applications
+    * Developed pipelines with ControlNet for pose-conditioned image generation
+    * Contributed to ModaMind’s AI-driven virtual photoshooting platform: https://modamind.ai/
 
 
 * Research Intern, March 2023 – July 2023
@@ -62,7 +68,7 @@ Skills
 * Programming Languages
   * Python, Java, C/C++, R, Matlab
 * Technical Proficiencies
-  * Pytorch, PyBullet, Langchain, Diffusers
+  * PyTorch, PyBullet, Langchain, Diffusers, Xarm API
 * Languages
   * Turkish (Native), English (Professional), German (Limited Proficiency)
 
