@@ -10,6 +10,8 @@ redirect_from:
 Burcu Kılıç
 ======
 
-Hi! I am a 4th-year Computer Engineering student at Bogazici University in Istanbul, Türkiye with an expected graduation date of January 2026. I am highly interested in neuro-symbolic AI and learning with intrinsic motivation. In my future studies I want to work on systems that replicate human learning and development.
+Hi! I am a senior Computer Engineering student at Bogazici University (graduating January 2026) in Istanbul, Türkiye, specializing in neuro-symbolic AI, intrinsic motivation, and developmental robotics. My research focuses on building agents that acquire symbolic action and perception abstractions autonomously—closing the gap between continuous sensorimotor signals and high-level reasoning.
 
-Currently I am an undergraduate research assistant in CoLoRs (Cognition, Learning and Robotics) Lab in Bogazici University, where I work on neuro-symbolic AI in robotics with Prof. Emre Uğur. 
+I am currently an undergraduate research assistant in the CoLoRs (Cognition, Learning and Robotics) Lab in Bogazici University, advised by Assoc. Prof. Emre Ugur, where I work on discovering symbolic skills from interaction data using curiosity-driven learning and deep predictive models.  
+
+Beyond robotics, I have experience in vision-based generative modeling, LLM-based applications, RAG pipelines, and transformer-based policy learning (Decision Transformers), gained through internships in industry and research groups across Germany, Austria, Sweden, and Türkiye (more detailed in my CV).
