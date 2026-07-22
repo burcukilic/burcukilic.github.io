@@ -1,0 +1,9 @@
+---
+title: Trajectory Learning with Graph Representations for Social Robot Navigation 
+collection: publications
+category: manuscripts
+date: 2026-06-21
+citation: 'B. Kartal, B. Kilic, Y. Yildirim, E. Ugur, "Trajectory Learning with Graph Representations for Social Robot Navigation", 2026.'
+paperurl: 'https://arxiv.org/abs/2607.00028'
+---
+Autonomous mobile robots are expected to exhibit socially compliant navigation for minimizing pedestrian disturbance. While capturing social interactions and incorporating pedestrian motion estimations into decision-making are beneficial for compliance, prior methods fail to address both spatial and temporal characteristics present in real-world data. Reinforcement Learning offers high capability, but it requires hand-crafted reward functions that reduce social behavior to static criteria, limiting its ability to reproduce patterns that exist in real pedestrian behavior. Imitation Learning offers direct training from real-world data but lacks modeling of social interactions and suffers from error accumulation. To this end, we propose an imitation learning framework that leverages spatiotemporal dynamics for socially compliant navigation. To represent social context based on interactions, we introduce a graph-based auxiliary network that encodes crowd states by attending to pedestrians. In addition, we present a navigation module that captures temporal dynamics and mitigates error accumulations by incorporating encoded state predictions and employing a trajectory-level learning objective. Our framework outperforms established data-driven baselines on simulation and a real-world dataset across diverse social metrics.
