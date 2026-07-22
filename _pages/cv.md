@@ -11,14 +11,20 @@ redirect_from:
 
 Education
 ======
-* Computer Engineering, Bogazici University, Istanbul, Turkey (2021 - Present) (Bachelor's)
+* Computer Engineering, Bogazici University, Istanbul, Turkey (2021 - 2026) (Bachelor's)
   * Intro to Artificial Intelligence, Neuro-Symbolic AI, Artificial Intelligence in Healthcare
 * Computer Science and Engineering, KTH Royal Institute of Technology, Stockholm, Sweden (Jan 2024 - June 2024) (Exchange Student)
   * Deep Learning in Data Science, Formal Languages and Automata Theory, Machine Learning
 
 Work experience
 ======
-* Undergraduate Research Assistant, Dec 2024 – Present
+* Data Scientist, April 2026 - July 2026 - Present
+  * PragmaCraft (Istanbul, Turkey)
+    *  Developed features for Answie, AI-powered document search and RAG platform that lets users upload documents and chat with private knowledge bases using cited answers.
+    *  Built and evaluated RAG and agentic search pipelines using document indexing, hybrid retrieval, reranking, evidence selection, and grounded LLM answer generation.
+    *  Implemented backend, frontend, and local desktop features using Python, FastAPI, React, Next.js, Celery, PostgreSQL, and vector search infrastructure.
+
+* Undergraduate Research Assistant, Dec 2024 – Jan 2024
   * CoLoRs (Cognitive Learning and Robotics), Boğaziçi University (Istanbul, Turkey)
   * Supervisor: Prof. Emre Uğur
     * Had research experience in robotics, neuro-symbolic AI, and deep learning.
@@ -44,19 +50,16 @@ Work experience
     * Created database dashboards with Quarto and Shiny Server in RStudio
     * Deployed with Streamlit and Posit Connect Server
 
-
 * AI Developer, July 2023 – Jan 2024
   * IDA AI (Istanbul, Turkey)
     * Trained generative models ( Stable Diffusion) using LoRA for virtual fashion applications
     * Developed pipelines with ControlNet for pose-conditioned image generation
     * Contributed to ModaMind’s AI-driven virtual photoshooting platform: https://modamind.ai/
 
-
 * Research Intern, March 2023 – July 2023
   * TÜBITAK 2232 (Istanbul, Turkey)
     *  Worked on project "Requirements Engineering for Digital TRansformations (RE4DigiTR)"
     *  Labeled and Visualized a Requirements engineering data in an NLP project
-
 
 * Mobile App Developer, April 2023 -  July 2023
   * Atlas Eron Digital (Istanbul, Turkey)
