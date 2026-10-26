@@ -4,7 +4,7 @@ cv:
   email: burcu0kilic@gmail.com
   location: Ankara, Türkiye
   image: ""
-  summary: Master's student at Middle East Technical University working with Emre Uğur at ROMER on world-model-based reinforcement learning, robot learning, and learned abstractions for planning.
+  summary: Master's student in Computer Engineering at Middle East Technical University, working with Assoc. Prof. Emre Uğur at ROMER.
 
   social_networks:
     - network: LinkedIn
@@ -22,7 +22,7 @@ cv:
         start_date: 2026-09
         end_date: present
         highlights:
-          - Researching world-model-based reinforcement learning with Emre Uğur at ROMER.
+          - Conducting research with Assoc. Prof. Emre Uğur at ROMER.
 
       - institution: Boğaziçi University
         location: Istanbul, Türkiye
@@ -50,12 +50,12 @@ cv:
         start_date: 2026-09
         end_date: present
         highlights:
-          - Researching world-model-based reinforcement learning methods at ROMER.
+          - Conducting research with Assoc. Prof. Emre Uğur at ROMER.
 
       - company: PragmaCraft
         position: Data Scientist
         location: Istanbul, Türkiye
-        url: https://www.pragmacraft.com/
+        url: https://answie.com/
         start_date: 2026-04
         end_date: 2026-07
         highlights:
@@ -108,7 +108,6 @@ cv:
       - company: ModaMind
         position: AI Developer
         location: Istanbul, Türkiye
-        url: https://modamind.ai/
         start_date: 2023-07
         end_date: 2024-01
         highlights:
@@ -128,6 +127,16 @@ cv:
         releaseDate: 2026
         url: https://neurips.cc/virtual/2026/poster/148749
         summary: Accepted as a poster; to be presented in Sydney, Australia.
+
+      - title: Bilevel Planning with Learned Symbolic Abstractions from Interaction Data
+        authors:
+          - Fatih Doğangün
+          - Burcu Kılıç
+          - Serdar Bahar
+          - Emre Uğur
+        publisher: IEEE Robotics and Automation Letters
+        releaseDate: 2026
+        url: https://ieeexplore.ieee.org/document/11685328
 
       - title: Joint Discovery of Object and Action Symbols through Effect Prediction for Robotic Manipulation Planning
         authors:
@@ -150,16 +159,6 @@ cv:
         releaseDate: 2026
         url: https://arxiv.org/abs/2607.00028
 
-      - title: Bilevel Planning with Learned Symbolic Abstractions from Interaction Data
-        authors:
-          - Fatih Doğangün
-          - Burcu Kılıç
-          - Serdar Bahar
-          - Emre Uğur
-        publisher: IEEE Robotics and Automation Letters
-        releaseDate: 2026
-        url: https://doi.org/10.1109/LRA.2026.3732904
-
       - title: Predictability-Based Curiosity-Guided Action Symbol Discovery
         authors:
           - Burcu Kılıç
@@ -167,7 +166,7 @@ cv:
           - Emre Uğur
         publisher: 2025 IEEE International Conference on Development and Learning (ICDL)
         releaseDate: 2025
-        url: https://doi.org/10.1109/ICDL63968.2025.11204386
+        url: https://ieeexplore.ieee.org/document/11204386
 
       - title: Learning Action Primitives in Manipulation Robots
         authors:
@@ -176,7 +175,7 @@ cv:
           - Emre Uğur
         publisher: 2025 33rd Signal Processing and Communications Applications Conference (SIU)
         releaseDate: 2025
-        url: https://doi.org/10.1109/SIU66497.2025.11111831
+        url: https://ieeexplore.ieee.org/document/11111831
 
     Skills:
       - name: Programming
@@ -190,8 +189,3 @@ cv:
       - name: Data and Systems
         icon: fa-solid fa-database
         keywords: NumPy, pandas, PostgreSQL, Docker, Weights & Biases, Azure ML, Google Cloud, FastAPI
-
-    Research Interests:
-      - name: Robot Learning
-        icon: fa-solid fa-robot
-        keywords: Reinforcement learning, skill discovery, world models, learned abstractions, neuro-symbolic planning

@@ -2,7 +2,6 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Peer-reviewed publications and preprints in robot learning, reinforcement learning, and planning.
 nav: true
 nav_order: 1
 ---
