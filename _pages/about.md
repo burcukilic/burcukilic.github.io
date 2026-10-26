@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpeg
   image_circular: false
 
-selected_papers: true
+selected_papers: false
 social: true
 
 announcements:
@@ -50,3 +50,11 @@ I received my B.Sc. in Computer Engineering from [Boğaziçi University](https:/
 My latest work, **"Effect-Driven Skill Abstractions for Offline Reinforcement Learning,"** has been accepted as a poster at the [Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS 2026)](https://neurips.cc/virtual/2026/poster/148749), where I will present it in Sydney.
 
 I am interested in how robots can acquire useful skills and compact representations from interaction data, then use those representations for decision-making and planning.
+
+<h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit">publications</a></h2>
+
+<div class="publications">
+
+{% bibliography %}
+
+</div>
