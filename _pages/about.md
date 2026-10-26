@@ -2,33 +2,35 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: M.S. student in Computer Engineering at <a href="https://www.metu.edu.tr/">Middle East Technical University</a>
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Ankara, Türkiye</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<script>
+  if (localStorage.getItem("theme") === null && typeof setThemeSetting === "function") {
+    setThemeSetting("light");
+  }
+</script>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a master's student in Computer Engineering at [Middle East Technical University](https://www.metu.edu.tr/), where I work with [Emre Uğur](https://emreugur.org/) at [ROMER](https://romer.metu.edu.tr/) on world-model-based reinforcement learning. My research interests lie at the intersection of **robot learning, reinforcement learning, and learned abstractions for planning**.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I received my B.Sc. in Computer Engineering from [Boğaziçi University](https://www.bogazici.edu.tr/en), where I was a research assistant in the [Cognitive Learning and Robotics (CoLoRs) Lab](https://colors.cmpe.boun.edu.tr/). I also studied at [KTH Royal Institute of Technology](https://www.kth.se/en) as an exchange student and worked as a visiting researcher at the [University of Innsbruck](https://www.uibk.ac.at/en/) with [Justus Piater](https://iis.uibk.ac.at/people/justus).
+
+My latest work, **"Effect-Driven Skill Abstractions for Offline Reinforcement Learning,"** has been accepted as a poster at the [Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS 2026)](https://neurips.cc/virtual/2026/poster/148749), where I will present it in Sydney.
+
+I am interested in how robots can acquire useful skills and compact representations from interaction data, then use those representations for decision-making and planning. Alongside my academic work, I have worked on machine learning, computer vision, retrieval-augmented generation, and applied AI systems in research and industry.
