@@ -1,0 +1,64 @@
+/* Project-specific layout. Shared homepage styles remain in stylesheet.css. */
+.project-page { max-width: 1100px; padding: 32px 28px 25px; }
+.project-header { margin: 42px auto 45px; }
+.project-header h1 { max-width: 1000px; font-size: 43px; line-height: 1.18; margin-bottom: 12px; }
+.project-venue { margin: 0 0 25px; font-size: 23px; font-weight: 600; }
+.project-header .authors { font-size: 20px; }
+.project-header .affiliations { line-height: 1.65; margin-top: 17px; }
+.project-links { gap: 9px 26px; margin-top: 20px; }
+.project-links a { border: 0; border-radius: 0; padding: 2px 0; font-size: 20px; }
+.project-body { max-width: 960px; font-size: 18px; line-height: 1.55; }
+.project-body section { margin: 0 0 44px; }
+.project-body section + section { border-top: 1px solid #e8e8e8; padding-top: 33px; }
+.project-body h2 { margin-bottom: 20px; font-size: 31px; font-weight: 600; letter-spacing: -.35px; }
+.project-body h3 { font-size: 23px; margin: 30px 0 16px; font-weight: 600; }
+.project-takeaway { text-align: center; font-size: 23px; margin: 0 auto 35px; max-width: 780px; }
+.light-box { padding: 23px 26px; background: #f6f7f8; border-radius: 6px; }
+.abstract-box p { margin: 0; }
+#citation pre { margin: 0; font-size: 14px; line-height: 1.65; white-space: pre-wrap; overflow-wrap: anywhere; }
+.paper-figure { margin: 23px 0; }
+.paper-figure figcaption { text-align: center; font-size: 15px; margin-top: 12px; }
+.paper-figure > a:focus-visible { outline-offset: 5px; }
+.method-stages { margin-top: 26px; }
+.prediction-pair { display: grid; grid-template-columns: 1fr 1fr; align-items: start; gap: 27px; }
+.prediction-pair .paper-figure { min-width: 0; }
+.effect-gallery { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; margin: 22px 0 8px; }
+.effect-gallery figure { margin: 0; min-width: 0; }
+.effect-gallery img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; background: #f6f7f8; }
+.effect-gallery figcaption { font-size: 14px; text-align: center; margin-top: 9px; }
+.media-grid { gap: 28px; margin: 23px 0 34px; }
+.media-grid figcaption { text-align: center; margin-top: 12px; font-size: 15px; line-height: 1.5; }
+.media-grid video { border-radius: 3px; background: #f6f7f8; }
+.policy-demos { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; }
+.policy-demos video { aspect-ratio: 2.52; object-fit: contain; }
+.push-demos { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 620px; margin-left: auto; margin-right: auto; }
+.push-demos video { max-height: 550px; object-fit: contain; }
+.environment-demos { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.environment-demos video { aspect-ratio: 1; object-fit: contain; }
+.project-body .acknowledgments h2 { font-size: 24px; }
+.project-body .acknowledgments p { font-size: 15px; }
+@media (max-width: 700px) {
+  .project-page { padding: 25px 20px; }
+  .project-header { margin: 34px auto; }
+  .project-header h1 { font-size: 34px; }
+  .project-venue { font-size: 20px; line-height: 1.4; }
+  .project-header .authors { font-size: 18px; }
+  .project-body { font-size: 16px; }
+  .project-body h2 { font-size: 27px; }
+  .project-body h3 { font-size: 22px; }
+  .project-takeaway { font-size: 20px; margin-bottom: 28px; }
+  .light-box { padding: 19px; }
+  #citation pre { font-size: 12px; }
+  .prediction-pair { grid-template-columns: 1fr; gap: 0; }
+  .policy-demos { grid-template-columns: 1fr; }
+  .environment-demos { grid-template-columns: 1fr; max-width: 400px; margin-left: auto; margin-right: auto; }
+  .effect-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 13px; }
+  .effect-gallery figure:first-child { grid-column: 1 / -1; width: 50%; justify-self: center; }
+  .push-demos { gap: 15px; }
+  .media-grid figcaption { font-size: 14px; }
+  .paper-figure figcaption { font-size: 14px; }
+}
+@media (max-width: 360px) {
+  .project-header h1 { font-size: 30px; }
+  .push-demos { grid-template-columns: 1fr; max-width: 230px; }
+}

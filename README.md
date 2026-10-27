@@ -1,6 +1,6 @@
 # Burcu Kılıç — academic website
 
-A light-theme, static academic website adapted from Jon Barron's template, with a compact layout inspired by Seohong Park's website. No installation, compilation, Jekyll, Node.js, or third-party scripts are required.
+A light-theme, static academic website adapted from Jon Barron's template. No installation, compilation, Jekyll, Node.js, or third-party scripts are required.
 
 ## Preview locally
 
@@ -76,9 +76,11 @@ GitHub Pages republishes automatically from `main`.
 
 ## What to edit
 
-- `index.html`: biography, social links, news, all six publications, education, experience, skills, and repository links.
+- `index.html`: biography, social links, news, all six publications, education, and compact experience highlights.
 - `stylesheet.css`: shared typography, spacing, colors, venue badges, and mobile layout.
-- `projects/effect-driven-skill-abstractions/index.html`: the initial project page. Add the abstract, figures, videos, and code link here when ready.
+- `projects/effect-driven-skill-abstractions/project.css`: the wider project layout, light abstract/citation boxes, paired figures, and responsive media galleries.
+- `projects/effect-driven-skill-abstractions/media.js`: plays visible video clips, keeps manually paused clips paused, and respects reduced-motion preferences.
+- `projects/effect-driven-skill-abstractions/index.html`: the paper project page, including its abstract, affiliations, method, figures, and citation. See the media instructions below to add GIFs or videos.
 - `assets/Burcu_Kilic_CV.pdf`: the copied CV PDF; replace this file to update the downloadable CV.
 - `assets/images/burcu-kilic.jpeg`: the copied original portrait.
 - `data/publications.bib`: full original bibliography, including DOI, volume, issue, and page metadata. Each homepage publication also has an expandable BibTeX citation.
@@ -93,6 +95,63 @@ The fonts are served locally. There are no analytics tags, theme switches, exter
 
 Website content © 2026 Burcu Kılıç.
 
-Adapted from the supplied [Jon Barron website template](https://github.com/jonbarron/jonbarron.github.io), whose README permits cloning for personal use. The layout and typography are inspired by [Seohong Park's website](https://seohong.me/).
+Adapted from the supplied [Jon Barron website template](https://github.com/jonbarron/jonbarron.github.io), whose README permits cloning for personal use.
 
 Source Sans 3 is © Adobe and distributed under the SIL Open Font License; see `assets/fonts/OFL.txt`.
+
+## Project figures and citation
+
+The Effect-Driven Skill Abstractions project page includes the full research abstract and author affiliations from the final manuscript. The manuscript's temporary “project page in progress” sentence is omitted. The affiliations retain the paper's numbering, including Bogazici University as Burcu's paper affiliation.
+
+The project figures are copied into `projects/effect-driven-skill-abstractions/figures/`. PDF figures have PNG previews; clicking a figure opens its original PDF. The comprehensive environment montage comes from the supplied `environments (1).pdf`. Both prediction/execution figures appear side by side on larger screens and stack on phones. The removed maze start/goal visualization is not displayed. Five predicted visual outcomes were extracted from the presentation to illustrate the meaning of the learned skill codes. The webpage has no dependency on the manuscript, Downloads, or slide folders.
+
+The paper citation is `projects/effect-driven-skill-abstractions/citation.bib`. It uses the author spellings from the manuscript and is also shown on the homepage. No unconfirmed proceedings volume, page range, or DOI has been added.
+
+## Add execution or effect-prediction GIFs
+
+1. Copy your GIFs into `projects/effect-driven-skill-abstractions/media/`. Use short filenames without spaces, such as `antmaze-execution.gif` and `effect-prediction.gif`.
+2. Open `projects/effect-driven-skill-abstractions/index.html`. Search for the comment `Add execution GIFs` in the evaluation section, or `Add effect-prediction GIFs` in the predictions section.
+3. Paste this markup at the desired position, using your filenames and captions:
+
+   ```html
+   <div class="media-grid">
+     <figure>
+       <img src="media/antmaze-execution.gif"
+            alt="AntMaze agent reaching a goal by executing discrete skills"
+            loading="lazy">
+       <figcaption>AntMaze execution. Colors identify the selected skills.</figcaption>
+     </figure>
+     <figure>
+       <img src="media/effect-prediction.gif"
+            alt="Predicted skill outcomes compared with executed trajectories"
+            loading="lazy">
+       <figcaption>Predicted effects and the resulting trajectories.</figcaption>
+     </figure>
+   </div>
+   ```
+
+4. Preview locally with `python3 -m http.server 8000`, then open <http://localhost:8000/projects/effect-driven-skill-abstractions/>. Commit and push the HTML and media files when ready.
+
+For longer recordings, an MP4 is generally smaller and offers playback controls. Put it in the same `media/` folder and replace the `<img>` with:
+
+```html
+<video controls playsinline preload="metadata"
+       aria-label="AntMaze execution with discrete skills">
+  <source src="media/antmaze-execution.mp4" type="video/mp4">
+  <a href="media/antmaze-execution.mp4">Download the execution video</a>
+</video>
+```
+
+The existing `media-grid` styles arrange clips responsively. Added MP4 clips automatically use the project’s visibility and motion-preference handling. No build step is needed.
+
+
+## Animations from the presentation
+
+All seven GIFs from `neurips_slides` are included as smaller, looping MP4 clips with poster images and playback controls. Their filenames and source mappings are recorded in `projects/effect-driven-skill-abstractions/media/sources.json`.
+
+- `dgcbc-visual-antmaze.mp4`: trained D-GCBC policy executions with pixel observations.
+- `dgciql-puzzle-play.mp4`: trained D-GCIQL policy executions in Puzzle.
+- `dgcbc-pusht-sample1.mp4` and `dgcbc-pusht-sample2.mp4`: the two D-GCBC examples from the presentation.
+- `franka-kitchen.mp4`, `visual-scene-v0-data.mp4`, and `pusht-diffusion.mp4`: environment or dataset illustrations, grouped separately from trained-policy examples.
+
+The GIF timing is preserved in the MP4 conversions. Videos play while visible, pause offscreen, and remain paused by default when reduced motion is requested. Visitors can pause or resume any clip using its controls. The paper names in the project text link to their original papers.

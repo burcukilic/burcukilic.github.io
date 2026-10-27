@@ -1,0 +1,58 @@
+{
+  "dgcbc_pusht_sample1": {
+    "video": "dgcbc-pusht-sample1.mp4",
+    "poster": "dgcbc-pusht-sample1-poster.webp",
+    "width": 682,
+    "height": 1362,
+    "source": "dgcbc_pusht_sample1.gif",
+    "bytes": 49559
+  },
+  "dgcbc_pusht_sample2": {
+    "video": "dgcbc-pusht-sample2.mp4",
+    "poster": "dgcbc-pusht-sample2-poster.webp",
+    "width": 682,
+    "height": 1362,
+    "source": "dgcbc_pusht_sample2.gif",
+    "bytes": 61266
+  },
+  "dgcbc_visual_antmaze": {
+    "video": "dgcbc-visual-antmaze.mp4",
+    "poster": "dgcbc-visual-antmaze-poster.webp",
+    "width": 330,
+    "height": 130,
+    "source": "dgcbc_visual_antmaze.gif",
+    "bytes": 224378
+  },
+  "dgciql_puzzle_play": {
+    "video": "dgciql-puzzle-play.mp4",
+    "poster": "dgciql-puzzle-play-poster.webp",
+    "width": 800,
+    "height": 318,
+    "source": "dgciql_puzzle_play.gif",
+    "bytes": 406354
+  },
+  "franka_kitchen": {
+    "video": "franka-kitchen.mp4",
+    "poster": "franka-kitchen-poster.webp",
+    "width": 480,
+    "height": 480,
+    "source": "franka_kitchen.gif",
+    "bytes": 385118
+  },
+  "pusht_diffusion": {
+    "video": "pusht-diffusion.mp4",
+    "poster": "pusht-diffusion-poster.webp",
+    "width": 256,
+    "height": 256,
+    "source": "pusht_diffusion.gif",
+    "bytes": 48763
+  },
+  "visual-scene-v0_data": {
+    "video": "visual-scene-v0-data.mp4",
+    "poster": "visual-scene-v0-data-poster.webp",
+    "width": 512,
+    "height": 512,
+    "source": "visual-scene-v0_data.gif",
+    "bytes": 574922
+  }
+}

@@ -4,7 +4,7 @@ cv:
   email: burcu0kilic@gmail.com
   location: Ankara, Türkiye
   image: ""
-  summary: Master's student in Computer Engineering at Middle East Technical University, working with Assoc. Prof. Emre Uğur at ROMER.
+  summary: Master's student in Computer Engineering at Middle East Technical University, working with Assoc. Prof. Emre Ugur at ROMER.
 
   social_networks:
     - network: LinkedIn
@@ -22,9 +22,9 @@ cv:
         start_date: 2026-09
         end_date: present
         highlights:
-          - Conducting research with Assoc. Prof. Emre Uğur at ROMER.
+          - Conducting research with Assoc. Prof. Emre Ugur at ROMER.
 
-      - institution: Boğaziçi University
+      - institution: Bogazici University
         location: Istanbul, Türkiye
         url: https://www.bogazici.edu.tr/en
         area: Computer Engineering
@@ -50,7 +50,7 @@ cv:
         start_date: 2026-09
         end_date: present
         highlights:
-          - Conducting research with Assoc. Prof. Emre Uğur at ROMER.
+          - Conducting research with Assoc. Prof. Emre Ugur at ROMER.
 
       - company: PragmaCraft
         position: Data Scientist
@@ -63,14 +63,14 @@ cv:
           - Built document-indexing and grounded answer-generation pipelines for agentic AI applications.
           - Implemented backend services with FastAPI, Celery, PostgreSQL, and Next.js.
 
-      - company: Cognitive Learning and Robotics (CoLoRs) Lab, Boğaziçi University
+      - company: Cognitive Learning and Robotics (CoLoRs) Lab, Bogazici University
         position: Research Assistant
         location: Istanbul, Türkiye
         url: https://colors.cmpe.boun.edu.tr/
         start_date: 2024-12
         end_date: 2026-01
         highlights:
-          - Conducted research on robotic skill discovery and planning, resulting in two peer-reviewed IEEE conference papers.
+          - Researched robotic skill discovery, learned symbolic abstractions, and planning from interaction data.
           - Trained deep learning models using simulated and real-robot data.
           - Worked with PyBullet, MuJoCo, xArm, and TurtleBot platforms.
 
@@ -121,7 +121,7 @@ cv:
         authors:
           - Burcu Kılıç
           - David Drexel
-          - Emre Uğur
+          - Emre Ugur
           - Justus Piater
         publisher: Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS 2026)
         releaseDate: 2026
@@ -130,10 +130,10 @@ cv:
 
       - title: Bilevel Planning with Learned Symbolic Abstractions from Interaction Data
         authors:
-          - Fatih Doğangün
+          - Fatih Dogangün
           - Burcu Kılıç
           - Serdar Bahar
-          - Emre Uğur
+          - Emre Ugur
         publisher: IEEE Robotics and Automation Letters
         releaseDate: 2026
         url: https://ieeexplore.ieee.org/document/11685328
@@ -142,9 +142,9 @@ cv:
         authors:
           - Burcu Kılıç
           - Berke Kartal
-          - Fatih Doğangün
+          - Fatih Dogangün
           - Erhan Oztop
-          - Emre Uğur
+          - Emre Ugur
         publisher: arXiv preprint arXiv:2607.00031
         releaseDate: 2026
         url: https://arxiv.org/abs/2607.00031
@@ -153,8 +153,8 @@ cv:
         authors:
           - Berke Kartal
           - Burcu Kılıç
-          - Yiğit Yıldırım
-          - Emre Uğur
+          - Yigit Yıldırım
+          - Emre Ugur
         publisher: arXiv preprint arXiv:2607.00028
         releaseDate: 2026
         url: https://arxiv.org/abs/2607.00028
@@ -162,8 +162,8 @@ cv:
       - title: Predictability-Based Curiosity-Guided Action Symbol Discovery
         authors:
           - Burcu Kılıç
-          - Alper Ahmetoğlu
-          - Emre Uğur
+          - Alper Ahmetoglu
+          - Emre Ugur
         publisher: 2025 IEEE International Conference on Development and Learning (ICDL)
         releaseDate: 2025
         url: https://ieeexplore.ieee.org/document/11204386
@@ -171,8 +171,8 @@ cv:
       - title: Learning Action Primitives in Manipulation Robots
         authors:
           - Burcu Kılıç
-          - Alper Ahmetoğlu
-          - Emre Uğur
+          - Alper Ahmetoglu
+          - Emre Ugur
         publisher: 2025 33rd Signal Processing and Communications Applications Conference (SIU)
         releaseDate: 2025
         url: https://ieeexplore.ieee.org/document/11111831
