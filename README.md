@@ -76,14 +76,14 @@ GitHub Pages republishes automatically from `main`.
 
 ## What to edit
 
-- `index.html`: biography, social links, news, all six publications, education, and compact experience highlights.
+- `index.html`: biography, social links, six illustrated publications, education, and compact experience highlights.
 - `stylesheet.css`: shared typography, spacing, colors, venue badges, and mobile layout.
 - `projects/effect-driven-skill-abstractions/project.css`: the wider project layout, light abstract/citation boxes, paired figures, and responsive media galleries.
 - `projects/effect-driven-skill-abstractions/media.js`: plays visible video clips, keeps manually paused clips paused, and respects reduced-motion preferences.
 - `projects/effect-driven-skill-abstractions/index.html`: the paper project page, including its abstract, affiliations, method, figures, and citation. See the media instructions below to add GIFs or videos.
 - `assets/Burcu_Kilic_CV.pdf`: the copied CV PDF; replace this file to update the downloadable CV.
 - `assets/images/burcu-kilic.jpeg`: the copied original portrait.
-- `data/publications.bib`: full original bibliography, including DOI, volume, issue, and page metadata. Each homepage publication also has an expandable BibTeX citation.
+- `data/publications.bib`: full original bibliography, including DOI, volume, issue, and page metadata. The homepage keeps paper/arXiv/code links without per-publication BibTeX controls.
 - `data/cv.yml`: preserved structured CV source. It is a reference copy; editing it does not automatically change the HTML or PDF. Keep the HTML, PDF, and reference data aligned when updating your information.
 - `cv/index.html`: a CV download and reading page; the `/cv/` URL remains available.
 - `publications/index.html`: forwards the previous `/publications/` URL to the homepage publication section.
@@ -103,9 +103,9 @@ Source Sans 3 is © Adobe and distributed under the SIL Open Font License; see `
 
 The Effect-Driven Skill Abstractions project page includes the full research abstract and author affiliations from the final manuscript. The manuscript's temporary “project page in progress” sentence is omitted. The affiliations retain the paper's numbering, including Bogazici University as Burcu's paper affiliation.
 
-The project figures are copied into `projects/effect-driven-skill-abstractions/figures/`. PDF figures have PNG previews; clicking a figure opens its original PDF. The comprehensive environment montage comes from the supplied `environments (1).pdf`. Both prediction/execution figures appear side by side on larger screens and stack on phones. The removed maze start/goal visualization is not displayed. Five predicted visual outcomes were extracted from the presentation to illustrate the meaning of the learned skill codes. The webpage has no dependency on the manuscript, Downloads, or slide folders.
+The project figures are copied into `projects/effect-driven-skill-abstractions/figures/`. PDF figures have PNG previews; clicking a figure opens its original PDF. The comprehensive environment montage comes from the supplied `environments (1).pdf`. Both prediction/execution figures appear side by side on larger screens and stack on phones. The removed maze start/goal visualization is not displayed. Five predicted visual outcomes use the standalone originals from `visual-scene-seed1-selected` to illustrate the meaning of the learned skill codes. The webpage has no dependency on the manuscript, Downloads, or slide folders.
 
-The paper citation is `projects/effect-driven-skill-abstractions/citation.bib`. It uses the author spellings from the manuscript and is also shown on the homepage. No unconfirmed proceedings volume, page range, or DOI has been added.
+The paper citation is `projects/effect-driven-skill-abstractions/citation.bib`. It uses the author spellings from the manuscript and is shown in the project page’s citation box. No unconfirmed proceedings volume, page range, or DOI has been added.
 
 ## Add execution or effect-prediction GIFs
 
@@ -147,11 +147,20 @@ The existing `media-grid` styles arrange clips responsively. Added MP4 clips aut
 
 ## Animations from the presentation
 
-All seven GIFs from `neurips_slides` are included as smaller, looping MP4 clips with poster images and playback controls. Their filenames and source mappings are recorded in `projects/effect-driven-skill-abstractions/media/sources.json`.
+The project page includes four trained-policy GIFs from `neurips_slides` as smaller, looping MP4 clips with poster images and playback controls. Their filenames and source mappings are recorded in `projects/effect-driven-skill-abstractions/media/sources.json`.
 
 - `dgcbc-visual-antmaze.mp4`: trained D-GCBC policy executions with pixel observations.
 - `dgciql-puzzle-play.mp4`: trained D-GCIQL policy executions in Puzzle.
 - `dgcbc-pusht-sample1.mp4` and `dgcbc-pusht-sample2.mp4`: the two D-GCBC examples from the presentation.
-- `franka-kitchen.mp4`, `visual-scene-v0-data.mp4`, and `pusht-diffusion.mp4`: environment or dataset illustrations, grouped separately from trained-policy examples.
+The tested-environment figure provides environment context; environment-illustration videos are not displayed.
 
 The GIF timing is preserved in the MP4 conversions. Videos play while visible, pause offscreen, and remain paused by default when reduced motion is requested. Visitors can pause or resume any clip using its controls. The paper names in the project text link to their original papers.
+
+
+## Homepage publication previews
+
+The six left-hand previews live in `assets/publications/`. Static figures are resized losslessly for sharp thumbnails while preserving their full composition. The supplied figures are `bilevel_planning_ss.png`, `joint_discovery_figure.png`, `predictability_based.png`, and `learning_action_primitives.png`.
+
+The NeurIPS preview uses only the successful lower-left execution from `dgciql_puzzle_play.gif`: a 160×158 crop at (0, 160), ending at 2.46 seconds before the completion fade. The top goal row is excluded. Social navigation uses the supplied `social_navigation.gif`. Both animations are served as small looping MP4s with a still poster, pause/play controls, and reduced-motion support in `assets/publication-previews.js`.
+
+Publication titles are plain text; use the paper, arXiv, code, and project links below them. The Bilevel Planning entry includes the RA-L abbreviation and the IROS 2026 RoBoWoMo Workshop Best Paper Award.

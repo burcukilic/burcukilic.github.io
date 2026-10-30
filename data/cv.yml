@@ -137,6 +137,7 @@ cv:
         publisher: IEEE Robotics and Automation Letters
         releaseDate: 2026
         url: https://ieeexplore.ieee.org/document/11685328
+        summary: IROS 2026 RoBoWoMo Workshop (Best Paper Award)
 
       - title: Joint Discovery of Object and Action Symbols through Effect Prediction for Robotic Manipulation Planning
         authors:
